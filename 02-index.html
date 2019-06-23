@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fonts\font-face.css">
+    <title>Document</title>
+    <style>
+        * {
+            direction: rtl;
+            font-family: Vazir;
+            box-sizing: border-box;
+            background-color: #C24E74;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        div .row {
+            margin: auto;
+            width: 50%;
+            height: 700px;
+            background-color: #2E628C;
+
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            font-size: 40px;
+        }
+
+        .sandwichicon {
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="btn-right">
+                <h1>سایت شخصی</h1>
+            </div>
+            <div class="btn-left">
+                <span onclick="openSandwichicon()" class="sandwichicon">&#9776;</span>
+            </div>
+
+        </header>
+        <div class="row">
+            <a href="#">خانه</a>
+            <a href="#">محصولات</a>
+            <a href="#">درباره ما</a>
+            <a href="#">مطالب</a>
+        </div>
+    </div>
+</body>
+
+</html>

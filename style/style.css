@@ -1,0 +1,114 @@
+*{
+    direction: rtl;
+    font-family: Vazir;
+    box-sizing: border-box;
+    background-color:#2E628C;
+    color:white;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    }
+    .container{
+        padding: 20px;
+    }
+    header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    }
+    .row{
+        width: 100%;
+        /* height: 488.71px; */
+        /* height: 478.49px; */
+        height: 472.49px;
+        height: -webkit-fill-available;
+    }
+    footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    }
+    .sandwichicon{
+        font-size: 50px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #mymenu{
+    
+    }
+    .sidenav {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+    
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+    .sidenav a {
+        padding: 8px 400px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav {
+        display: inline-flex;
+        display: inline;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+      
+    } 
+    .sidenav1{
+     margin-right:600px; 
+text-align: center;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+overflow-x: hidden;
+padding-top: 60px;
+
+    }
+ .right{ 
+    height: 100%;
+    width: 30%;
+    background: pink;
+    position: absolute;
+    right: 1px;
+
+} 
+.closebtn{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: pink;
+    width: 30%;
+}
+.left{
+    height: 100%;
+    width: 30%;
+    background: pink;
+    position: absolute;
+    left: 1px;
+}
+    
